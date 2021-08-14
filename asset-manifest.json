@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reactApp/static/css/main.33541343.chunk.css",
+    "main.css": "/reactApp/static/css/main.52135918.chunk.css",
     "main.js": "/reactApp/static/js/main.d684e525.chunk.js",
     "main.js.map": "/reactApp/static/js/main.d684e525.chunk.js.map",
     "runtime-main.js": "/reactApp/static/js/runtime-main.79324ef0.js",
@@ -9,10 +9,10 @@
     "static/js/2.88889c52.chunk.js": "/reactApp/static/js/2.88889c52.chunk.js",
     "static/js/2.88889c52.chunk.js.map": "/reactApp/static/js/2.88889c52.chunk.js.map",
     "index.html": "/reactApp/index.html",
-    "precache-manifest.9a2f1fd38068a6151f3a10161f833853.js": "/reactApp/precache-manifest.9a2f1fd38068a6151f3a10161f833853.js",
+    "precache-manifest.2727210f07deac1ce64ee6c0a186d76a.js": "/reactApp/precache-manifest.2727210f07deac1ce64ee6c0a186d76a.js",
     "service-worker.js": "/reactApp/service-worker.js",
     "static/css/2.3b2cfc2e.chunk.css.map": "/reactApp/static/css/2.3b2cfc2e.chunk.css.map",
-    "static/css/main.33541343.chunk.css.map": "/reactApp/static/css/main.33541343.chunk.css.map",
+    "static/css/main.52135918.chunk.css.map": "/reactApp/static/css/main.52135918.chunk.css.map",
     "static/js/2.88889c52.chunk.js.LICENSE.txt": "/reactApp/static/js/2.88889c52.chunk.js.LICENSE.txt",
     "static/media/App.css": "/reactApp/static/media/ultraviolentbb_reg.acc68e52.woff"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.79324ef0.js",
     "static/css/2.3b2cfc2e.chunk.css",
     "static/js/2.88889c52.chunk.js",
-    "static/css/main.33541343.chunk.css",
+    "static/css/main.52135918.chunk.css",
     "static/js/main.d684e525.chunk.js"
   ]
 }
