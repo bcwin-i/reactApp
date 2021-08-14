@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ce9afccc40e0d33f781ea6c9c87e4ba6",
+    "revision": "1e847dfef35f94e223ddea2d3651f490",
     "url": "/bcwin-i/reactApp/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bcwin-i/reactApp/static/css/2.3b2cfc2e.chunk.css"
   },
   {
-    "revision": "0d61b1f530d14e9df680",
-    "url": "/bcwin-i/reactApp/static/css/main.d200738f.chunk.css"
+    "revision": "34e9e996ed6487216756",
+    "url": "/bcwin-i/reactApp/static/css/main.58082061.chunk.css"
   },
   {
     "revision": "ac972f52633d985cb51a",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bcwin-i/reactApp/static/js/2.88889c52.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0d61b1f530d14e9df680",
-    "url": "/bcwin-i/reactApp/static/js/main.c0ec102c.chunk.js"
+    "revision": "34e9e996ed6487216756",
+    "url": "/bcwin-i/reactApp/static/js/main.89dd5abe.chunk.js"
   },
   {
     "revision": "72a90a70e80497a737de",
