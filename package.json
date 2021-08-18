@@ -1,6 +1,6 @@
 {
-  "homepage":  "https://bcwin-i.github.io/reactApp",
-  "name": "reactApp",
+  "homepage": "https://bcwin-i.github.io/reactApp",
+  "name": "robot",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
