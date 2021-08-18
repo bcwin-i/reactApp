@@ -1,0 +1,27 @@
+import React from 'react';
+import './SearchBox.css';
+
+const SearchBox = ({ searchfield, searchChange }) => {
+  return (
+    <div className='pa2'>
+      {/* <input
+        className='pa3 ba b--green bg-lightest-blue'
+        type='search'
+        placeholder='search robots'
+        onChange={searchChange}
+      /> */}
+
+      <div className="container">
+        <div className="searchBox">
+            <input onChange={searchChange} className="searchInput" type="text" name="" placeholder="Search"/>
+            <button className="searchButton" href="#">
+                <img alt="search_icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnIHRyYW5zZm9ybT0ibWF0cml4KDAuNzcsMCwwLDAuNzcsNTguODc5OTY4NDE0MzA2NjMsNTguODc5OTk5OTk5OTk5OTk1KSI+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Zz4KCQk8cGF0aCBkPSJNMTQxLjM2NywxMTYuNTE4Yy03LjM4NC03LjM5LTE5LjM2NC03LjM5LTI2Ljc0OCwwYy0yNy40MTYsMjcuNDE2LTQwLjg5MSw2NS42MDgtMzYuOTc1LDEwNC43OSAgICBjMC45NzcsOS43NjEsOS4yLDE3LjAzNywxOC44MDMsMTcuMDM3YzAuNjMxLDAsMS4yNjctMC4wMzIsMS44OTgtMC4wOTVjMTAuMzk4LTEuMDQsMTcuOTgzLTEwLjMxNiwxNi45NDMtMjAuNzA3ICAgIGMtMi43ODctMjcuODQ1LDYuNzIyLTU0LjkyLDI2LjA3OS03NC4yNzhDMTQ4Ljc1NywxMzUuODgyLDE0OC43NTcsMTIzLjkwMSwxNDEuMzY3LDExNi41MTh6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCTxnPgoJCTxwYXRoIGQ9Ik0yMTYuMjc2LDBDOTcuMDIxLDAsMCw5Ny4wMjEsMCwyMTYuMjc2czk3LjAyMSwyMTYuMjc2LDIxNi4yNzYsMjE2LjI3NnMyMTYuMjc2LTk3LjAyMSwyMTYuMjc2LTIxNi4yNzYgICAgUzMzNS41MywwLDIxNi4yNzYsMHogTTIxNi4yNzYsMzk0LjcxOWMtOTguMzk2LDAtMTc4LjQ0My04MC4wNDctMTc4LjQ0My0xNzguNDQzUzExNy44OCwzNy44MzMsMjE2LjI3NiwzNy44MzMgICAgYzk4LjM5LDAsMTc4LjQ0Myw4MC4wNDcsMTc4LjQ0MywxNzguNDQzUzMxNC42NzIsMzk0LjcxOSwyMTYuMjc2LDM5NC43MTl6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCTxnPgoJCTxwYXRoIGQ9Ik01MDYuNDU4LDQ3OS43MUwzNjguOTk5LDM0Mi4yNTJjLTcuMzktNy4zOS0xOS4zNTgtNy4zOS0yNi43NDgsMGMtNy4zOSw3LjM4NC03LjM5LDE5LjM2NCwwLDI2Ljc0OEw0NzkuNzEsNTA2LjQ1OCAgICBjMy42OTUsMy42OTUsOC41MzEsNS41NDIsMTMuMzc0LDUuNTQyYzQuODQzLDAsOS42NzktMS44NDcsMTMuMzc0LTUuNTQyQzUxMy44NDcsNDk5LjA3NCw1MTMuODQ3LDQ4Ny4wOTQsNTA2LjQ1OCw0NzkuNzF6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==" />
+            </button>
+        </div>
+      </div>
+      
+    </div>
+  );
+}
+
+export default SearchBox;
